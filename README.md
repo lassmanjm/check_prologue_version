@@ -9,9 +9,9 @@ check_prologue_version/run.sh -r $EMAIL_ADDRESS -v $WANTED_MAJOR_VERSION -l
 ```
 
 ## Flags:
-    * -r: Recipient of email <b>(required)</b>
-    * -v: Wanted major version (default `4`)
-    * -l: Whether to log to /tmp/logs/check_prologue_version.log
+* -r: Recipient of email **(required)**
+* -v: Wanted major version (default `'4'`)
+* -l: Whether to log to /tmp/logs/check_prologue_version.log
 
 ## Crontab:
 
